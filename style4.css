@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: 0;
+}
+
+/*linha do cabecalho*/
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: end;
+    padding: 20px;
+    font-size: 12px;
+}
+
+/*links q ficam no cabecalho*/
+a {
+    color: black;
+    background-color: #41b2f8;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+    border-radius: 20px;
+    transition: 0.3s;
+
+}
+
+
+/*fundo do cabecalho*/
+.cabeça {
+    background-color: #1E90FF; 
+    border-bottom: 1px solid #000;
+
+}
+
+
+/*img cabecalho*/
+img {
+    width: 100px;
+    height: 40px;
+}
+
+
+/*botao da barra de navegacao*/
+.button {
+    padding: 1.3em 3em;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color:#1E90FF;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+
+}
+
+
+/*animacao do botao*/
+.button:hover {
+    background-color: #87CEFA;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+
+}
+
+/*animacao do botao*/
+.button:active {
+    transform: rotateY(-1px);
+}
+
+
+/*fundo do texto*/
+.fundo {
+    width: 190vh;
+    height: 30vh;
+    margin-left: 80px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+/*fundo do titulo*/
+.titulo {
+    background-color: #1E90FF;
+    color: #ffd2e7;
+    width: 90%;
+    height: auto;
+    border-radius: 10px 10px 0px 0px;
+    border: 1px solid #000;
+
+
+}
+
+.titulo h2{
+    margin-left: 530px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: #000;
+
+}
+
+/*logo do jogo*/
+.logo{
+    margin-top: 50px;
+}
+
+
+.logo img{
+    height: 200px;
+    width: 600px;
+    margin: 20px 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+
+
+}
+
+
+/*fundo da onde fica as pesquisas*/
+.pesquisa {
+    max-width: 90%;
+    max-height: 400px;
+    background-color: #87CEFA;
+    border-radius: 0px 0px 10px 10px;
+    border: 1px solid #000;
+}
+
+.pesquisa p{
+    margin: 30px 30px ;
+    text-align: justify;
+    text-indent: 20px;
+    color: #000;
+    font-size: 1.2rem;
+}
+
+.pesquisa h2{
+    margin-left: 25px;
+}
+
